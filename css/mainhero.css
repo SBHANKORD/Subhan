@@ -32,6 +32,9 @@ section {
 	position: relative;
 	width: 34.8rem;
 }
+.home-content .text-animate .text-animate-network{
+	font-size: 2.8rem;
+}
 
 .home-content .text-animate h3 {
 	font-size: 3.2rem;
@@ -45,6 +48,7 @@ section {
 	);
 	background-repeat: no-repeat;
 	-webkit-background-clip: text;
+	background-clip: text;
 	background-position: -34.4 0;
 	animation: homeBgText 6s linear infinite;
 	animation-delay: 2s;
